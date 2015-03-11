@@ -9,7 +9,6 @@
  *
  * @type {exports.Hazelcast|*}
  */
-debugger;
 var Hazelcast = require('decaf-hazelcast').Hazelcast,
     hazelcast = new Hazelcast(),
     customers = hazelcast.getMap('customers');
