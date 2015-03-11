@@ -9,8 +9,9 @@
  *
  * @type {exports.Hazelcast|*}
  */
-var Hazelcast = require('..').Hazelcast,
-    hazelcast = new Hazelcast('../hazelcast.xml'),
+debugger;
+var Hazelcast = require('decaf-hazelcast').Hazelcast,
+    hazelcast = new Hazelcast(),
     customers = hazelcast.getMap('customers');
 
 customers.put(1, 'Joe');
