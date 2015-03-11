@@ -1,0 +1,23 @@
+{
+  "name": "decaf-hazelcast",
+  "version": "0.0.1",
+  "authors": [
+    "Mike Schwartz <mike@moduscreate.com>"
+  ],
+  "description": "Tutorial: Example using Hzelcast with DecafJS",
+  "main": "main.js",
+  "keywords": [
+    "tutorial",
+    "rhino",
+    "JavaScript",
+    "Sync",
+    "Hazelcast"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/decafjs/decaf-hazelcast",
+  "private": "false",
+  "dependencies": {
+    "decaf": "decafjs/decaf#master",
+    "decaf-hazelcast": "decafjs/decaf-hazelcast#master"
+  }
+}
