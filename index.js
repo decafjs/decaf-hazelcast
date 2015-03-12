@@ -5,5 +5,6 @@
 /*global require, exports */
 
 decaf.extend(exports, {
-    Hazelcast: require('lib/Hazelcast')
+    Client: require('lib/Client'),
+    Server: require('lib/Server')
 });
