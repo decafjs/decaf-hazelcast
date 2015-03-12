@@ -24,6 +24,8 @@ The argument to new Hazelcast() constructor for client or server is optional.  I
 - ./hazelcast.xml
 - bower_components/decaf-hazelcast/hazelcast.xml
 
+See the Hazelcast documentation for configuration details (editing the xml file).
+
 ## Supported methods
 
 Once you have a client or server instance, you may call one of:
@@ -35,5 +37,8 @@ var queue = hazelcast.getQueue(queue_name);
 
 The methods on the map and queue are described in the Hazelcast documentation at the link above.
 
+## Examples
+
+See the README in the examples/ directory.
 
 
