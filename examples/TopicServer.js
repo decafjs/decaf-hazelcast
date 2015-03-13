@@ -13,6 +13,7 @@ topic.addMessageListener({
     onMessage : function (message) {
         console.log(message.messageObject);
         console.log(message.source);
+        console.log(message.publishingMember);
     }
 });
 
