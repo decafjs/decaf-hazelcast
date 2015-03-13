@@ -33,6 +33,7 @@ Once you have a client or server instance, you may call one of:
 ```javascript
 var map = hazelcast.getMap(map_name);
 var queue = hazelcast.getQueue(queue_name);
+var topic = hazelcast.getTopic(topic_name);
 ```
 
 The methods on the map and queue are described in the Hazelcast documentation at the link above.
